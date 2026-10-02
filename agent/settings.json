@@ -1,0 +1,46 @@
+{
+  "packages": [
+    "npm:pi-web-access",
+    "npm:@normful/pi-auto-name",
+    "npm:pi-session-native-compression",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:awesome-pi-themes",
+    "npm:pi-zentui",
+    "npm:pi-freeflow",
+    "npm:pi-bash-highlight"
+  ],
+  "lastChangelogVersion": "1.0.0",
+  "theme": "meomeo-mang",
+  "images": {
+    "autoResize": false
+  },
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-6-luna",
+  "autocompleteMaxVisible": 15,
+  "enabledModels": [
+    "openai-codex/gpt-6-astra",
+    "openai-codex/gpt-6-luna",
+    "freeflow/stealth/space-bunny-alpha"
+  ],
+  "defaultThinkingLevel": "high",
+  "terminal": {
+    "imageWidthCells": 120
+  },
+  "treeFilterMode": "no-tools",
+  "defaultTools": [
+    "read",
+    "bash",
+    "edit",
+    "write",
+    "codemode"
+  ],
+  "defaultProjectTrust": "always",
+  "editorPaddingX": 0,
+  "hideThinkingBlock": false,
+  "modelThinkingLevels": {
+    "openai-codex/gpt-6-luna": "xhigh"
+  },
+  "outputPad": 1,
+  "cacheWarming": "idle",
+  "showHardwareCursor": true
+}

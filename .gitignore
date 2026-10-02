@@ -1,0 +1,43 @@
+# Default-deny: only explicitly allowlisted files below are public.
+/*
+!/README.md
+!/web-search.json
+!/.gitignore
+!/agent/
+
+# ~/.pi is runtime state as well as configuration; allow only reviewed config.
+/agent/*
+!/agent/AGENTS.md
+!/agent/settings.json
+!/agent/models-store.json
+!/agent/zentui.json
+!/agent/mcp.json
+
+# Explicitly sensitive or machine/runtime-specific (keep excluded).
+/agent/auth.json
+/agent/mcp-auth.json
+/agent/mcp.log*
+/agent/models-store.json
+/agent/sessions/
+/agent/npm/
+/agent/session-compression.json
+/agent/pi-freeflow.log
+/agent/pi-freeflow-*.json
+/agent/pi-freeflow-onboarded
+/web-search-cache/
+
+# Secret material: keep denied even if future allow rules are broadened.
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# OS metadata.
+.DS_Store
+**/.DS_Store

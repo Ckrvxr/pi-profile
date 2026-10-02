@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "context7": {
+      "url": "https://mcp.context7.com/mcp/oauth",
+      "exposure": "direct"
+    },
+    "paper-search": {
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp<2",
+        "paper-search-mcp"
+      ],
+      "exposure": "codemode"
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--headless=false",
+        "--no-usage-statistics"
+      ],
+      "exposure": "codemode"
+    }
+  }
+}
