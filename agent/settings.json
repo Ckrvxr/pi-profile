@@ -6,7 +6,8 @@
     "npm:awesome-pi-themes",
     "npm:pi-zentui",
     "npm:pi-bash-highlight",
-    "npm:pi-mac-session-native-compression"
+    "npm:pi-mac-session-native-compression",
+    "npm:@howaboua/pi-codex-imagegen"
   ],
   "lastChangelogVersion": "1.2.0",
   "theme": "rainbow-prism",
@@ -38,5 +39,8 @@
   "hideThinkingBlock": false,
   "outputPad": 1,
   "cacheWarming": "idle",
-  "showHardwareCursor": true
+  "showHardwareCursor": true,
+  "compaction": {
+    "enabled": true
+  }
 }
