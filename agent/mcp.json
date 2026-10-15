@@ -7,6 +7,8 @@
     "paper-search": {
       "command": "uvx",
       "args": [
+        "--python",
+        "3.13",
         "--with",
         "mcp<2",
         "paper-search-mcp"
