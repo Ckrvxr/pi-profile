@@ -23,7 +23,7 @@
           "transparent": false
         },
         "minimalist": {
-          "pathDisplay": "project",
+          "pathDisplay": "full",
           "contextFormat": "percent-total",
           "contextGauge": true,
           "showSessionName": false,

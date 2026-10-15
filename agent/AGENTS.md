@@ -26,7 +26,7 @@
   - **网络**：curl、aria2c、mtr、doggo、iperf3、tshark
   - **开发**：go-task、clang、lldb、cmake、tmux、hyperfine
 - 其他工具优先使用 npx 或 uvx
-- 在 windows 中，语法请优先使用 bash 而非 powershell；tmux 改为 psmux；
+- 在 windows 中，语法请优先使用 bash 而非 powershell；tmux 改为 psmux，语法基本无差异
 
 ### 2. tmux（会话、交互、调试增强）
 
