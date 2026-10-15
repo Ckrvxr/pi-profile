@@ -15,17 +15,18 @@
 
 ### 1. 工具路由
 
-- 包管理器 apt ≈ brew > pnpm > npm > uv > scoop
+- 包管理器 apt ≈ brew > pnpm > npm > uv > winget > scoop
 - 学术搜索优先使用 paper-search; 代码、库搜索优先使用 context7
 - GitHub 交互优先使用 gh
 - 环境中已经有以下常见 Unix 工具，请优先使用他们：
   - **文件**：rg、fd、fzf、file、7zip、rsync
     - fd 指 sharkdp/fd，是 find 的性能更好的现代替代品；查找文件时优先使用它
-  - **数据处理**：jq、yq、dasel、sqlite3
+  - **数据处理**：jq、yq、dasel、sqlite(3)
   - **多媒体**：ffmpeg、imagemagick、yt-dlp、mediainfo
   - **网络**：curl、aria2c、mtr、doggo、iperf3、tshark
   - **开发**：go-task、clang、lldb、cmake、tmux、hyperfine
 - 其他工具优先使用 npx 或 uvx
+- 在 windows 中，语法请优先使用 bash 而非 powershell；tmux 改为 psmux；
 
 ### 2. tmux（会话、交互、调试增强）
 

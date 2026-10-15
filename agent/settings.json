@@ -5,11 +5,10 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:awesome-pi-themes",
     "npm:pi-zentui",
-    "npm:pi-freeflow",
     "npm:pi-bash-highlight",
     "npm:pi-mac-session-native-compression"
   ],
-  "lastChangelogVersion": "1.0.2",
+  "lastChangelogVersion": "1.2.0",
   "theme": "rainbow-prism",
   "images": {
     "autoResize": false

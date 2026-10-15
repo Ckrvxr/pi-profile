@@ -111,7 +111,7 @@
       }
     },
     "thinkingSteps": {
-      "enabled": false,
+      "enabled": true,
       "mode": "tree"
     },
     "selectorBorders": {
