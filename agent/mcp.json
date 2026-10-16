@@ -14,6 +14,10 @@
         "paper-search-mcp"
       ],
       "exposure": "codemode"
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp",
+      "exposure": "codemode"
     }
   }
 }

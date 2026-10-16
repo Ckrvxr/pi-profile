@@ -1,6 +1,6 @@
 ## 一、最终消息风格
 
-- 回复紧凑，避免不必要的换行。
+- 回复紧凑，避免不必要的换行
 
 ## 二、数据安全
 
@@ -16,7 +16,7 @@
 ### 1. 工具路由
 
 - 包管理器 apt ≈ brew > pnpm > npm > uv > winget > scoop
-- 学术搜索优先使用 paper-search; 代码、库搜索优先使用 context7
+- 学术搜索优先使用 paper-search；代码、库搜索优先使用 context7
 - GitHub 交互优先使用 gh
 - 环境中已经有以下常见 Unix 工具，请优先使用他们：
   - **文件**：rg、fd、fzf、file、7zip、rsync
@@ -26,15 +26,15 @@
   - **网络**：curl、aria2c、mtr、doggo、iperf3、tshark
   - **开发**：go-task、clang、lldb、cmake、tmux、hyperfine
 - 其他工具优先使用 npx 或 uvx
-- 在 windows 中，语法请优先使用 bash 而非 powershell；tmux 改为 psmux，语法基本无差异
+- 在 windows 中
+  - 语法请优先使用 bash 而非 powershell
+  - microsoft-coreutils 已安装
+  - tmux 改为 psmux，语法基本无差异
 
 ### 2. tmux（会话、交互、调试增强）
 
-会话命名统一规范：
-
-会话 id 使用 `pi-<项目>-<会话ID>-<任务>` 命名，例如 `pi-sqlite_v3-9766127e-source_download`。
-
-使用 `PI_SESSION_ID` 区分 Pi 会话，取末尾 8 位。
+- 会话 id 命名统一规范：`pi-<项目>-<会话ID>-<任务>`，例如 `pi-sqlite_v3-9766127e-source_download`
+  - 使用 `PI_SESSION_ID` 区分 Pi 会话，取末尾 8 位。
 
 ```bash
 # 项目 ID
@@ -60,7 +60,7 @@ tmux kill-session -t "$tmux_session_id"
 ### 3. fd（文件搜索增强）
 
 - 优先使用 fd 快速查找文件和目录
-- 基本语法：`fd [OPTIONS] [pattern] [path]...`；
+- 基本语法：`fd [OPTIONS] [pattern] [path]...`
 - 默认从当前目录递归搜索，pattern 默认按正则(Rust regex syntax)匹配文件名
 - 默认跳过隐藏路径和被忽略路径
 
