@@ -22,8 +22,8 @@
   - 文件：rg、fd、fzf、file、7zip、clamav
   - 数据处理：jq、yq、dasel、sqlite(3)
   - 多媒体：ffmpeg、imagemagick、yt-dlp、mediainfo
-  - 网络：curl、aria2c、mtr、doggo、iperf3、tshark
-  - 开发：go-task、clang、lldb、cmake、tmux、hyperfine
+  - 网络：curl、aria2(c)、iperf3、tshark
+  - 开发：go-task、clang、lldb、llvm、cmake、hyperfine、tmux
 - 其他工具优先使用 npx 或 uvx
 - 在 windows 中
   - 语法请优先使用 bash 而非 powershell
