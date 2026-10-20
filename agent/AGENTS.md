@@ -15,7 +15,7 @@
 
 ### 1. 工具路由
 
-- 包管理器 apt ≈ brew > pnpm > npm > uv > winget > scoop
+- 包管理器 apt ≈ brew > pnpm > npm > uv > scoop > winget
 - 学术搜索优先使用 paper-search；代码、库搜索优先使用 context7
 - GitHub 交互优先使用 gh
 - 环境中已经有以下常见软件，请优先使用他们：
