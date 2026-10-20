@@ -10,7 +10,7 @@
     "npm:@howaboua/pi-codex-imagegen"
   ],
   "lastChangelogVersion": "1.3.0",
-  "theme": "glitch-carnival",
+  "theme": "rainbow-prism",
   "images": {
     "autoResize": false
   },
