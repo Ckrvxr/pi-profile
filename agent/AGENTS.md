@@ -5,7 +5,7 @@
 ## 二、数据安全
 
 - 删除文件或卸载程序时，将目标移到回收站，不要使用 rm
-- 未经用户明确同意，不要执行 commit 或 push
+- 未经用户明确授权，禁止执行 commit 或 push，授权仅单次
 
 ## 三、资源管理
 
@@ -24,10 +24,10 @@
   - 多媒体：ffmpeg、imagemagick、yt-dlp、mediainfo
   - 网络：curl、aria2(c)、iperf3、tshark
   - 开发：go-task、clang、lldb、llvm、cmake、hyperfine、tmux
-- 其他工具优先使用 npx 或 uvx
+- 其他工具优先使用 npx 或 uvx，要善用它们的生态，非高危工具直接使用即可，无需授权
 - 在 windows 中
-  - 语法请优先使用 bash 而非 powershell
-  - microsoft-coreutils 已安装
+  - 请优先使用 bash 而非 powershell
+  - microsoft-coreutils 已安装，已包含大部分 unix like 工具
   - tmux 改为 psmux，语法基本无差异
 
 ### 2. fd（文件搜索增强）
@@ -94,7 +94,7 @@ tmux capture-pane -p -t "$tmux_session_id"
 tmux kill-session -t "$tmux_session_id"
 # ...
 ```
-  
+
 ### 5. clamav（安全增强）
 
 - 网络下载的二进制文件，请用 clamav 扫描

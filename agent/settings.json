@@ -3,14 +3,13 @@
     "npm:pi-web-access",
     "npm:@normful/pi-auto-name",
     "npm:@juicesharp/rpiv-ask-user-question",
-    "npm:awesome-pi-themes",
     "npm:pi-zentui",
     "npm:pi-bash-highlight",
     "npm:pi-mac-session-native-compression",
     "npm:@howaboua/pi-codex-imagegen"
   ],
-  "lastChangelogVersion": "1.3.0",
-  "theme": "rainbow-prism",
+  "lastChangelogVersion": "1.4.0",
+  "theme": "system",
   "images": {
     "autoResize": false
   },
@@ -39,5 +38,13 @@
   "hideThinkingBlock": false,
   "outputPad": 1,
   "cacheWarming": "idle",
-  "showHardwareCursor": true
+  "showHardwareCursor": true,
+  "compaction": {
+    "enabled": true
+  },
+  "modelThinkingLevels": {
+    "openai-codex/gpt-6.1-sol": "high",
+    "openai-codex/gpt-6-luna": "max",
+    "openai-codex/gpt-6-astra": "high"
+  }
 }
