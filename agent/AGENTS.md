@@ -1,17 +1,22 @@
-## 一、最终消息风格
+## 一、项目规范与验收标准
+
+- Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness
+- 前端、排版、设计、PPT、PDF 等项目，都要通过渲染和查看来验收，不断调整排版和句式，直到排版优美，各种元素和谐
+
+## 二、最终消息风格
 
 - 回复紧凑，避免不必要的换行
 
-## 二、数据安全
+## 三、数据安全
 
-- 删除文件或卸载程序时，将目标移到回收站，不要使用 rm
+- 删除文件或程序时，优先使用包管理器，其次是移到回收站，不要使用 rm
 - 未经用户明确授权，禁止执行 commit 或 push，授权仅单次
 
-## 三、资源管理
+## 四、资源管理
 
 - 将 skills 统一存放在 `~/.agents`
 
-## 四、工具使用
+## 五、工具使用
 
 ### 1. 工具路由
 
