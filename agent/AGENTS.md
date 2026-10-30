@@ -29,7 +29,7 @@
   - 多媒体：ffmpeg、imagemagick、yt-dlp、mediainfo
   - 网络：curl、aria2(c)、iperf3、tshark
   - 开发：go-task、clang、lldb、llvm、cmake、hyperfine、tmux
-- 其他工具优先使用 npx 或 uvx，要善用它们的生态，非高危工具直接使用即可，无需授权
+- 其他工具优先使用 npx(node) 或 uv(x)，要善用它们的生态，非高危工具直接使用即可，无需授权
 - 在 windows 中
   - 请优先使用 bash 而非 powershell
   - microsoft-coreutils 已安装，已包含大部分 unix like 工具
