@@ -2,11 +2,11 @@
 
 - Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness
 - 前端、排版、设计、PPT、PDF 等项目，都要不断通过渲染和查看来验收，不断调整排版和句式，直到排版优美，各种元素和谐
-- 工程中请使用无损格式保证终端质量，包括视频，除非用户要求其他质量
+- 请使用无损格式保证终端质量，包括视频，除非用户要求其他质量
 - 优先使用下面格式：
   - av1 > hevc > avc
   - flac ≈ wav > opus > m4a
-  - avif ≈ jxl > webp > png > bmp > jpg
+  - png > avif ≈ jxl > webp > bmp > jpg
 
 ## 二、最终消息风格
 
@@ -85,13 +85,8 @@ cat file.txt | fzf --filter='QUERY'
   - 使用 `PI_SESSION_ID` 区分 Pi 会话，取末尾 8 位。
 
 ```bash
-# 项目 ID
-project_id="${PWD##*/}"
-# 会话 ID
-pi_session_id="${PI_SESSION_ID:-manual}"
 # 会话名
-tmux_session_id="pi-${project_id}-${PI_SESSION_ID: -8}-task_name"
-
+tmux_session_id="pi-${PWD##*/}-${PI_SESSION_ID: -8}-task_name"
 # 查看会话列表
 tmux list-sessions
 # 启动会话
