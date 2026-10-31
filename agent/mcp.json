@@ -1,9 +1,5 @@
 {
   "mcpServers": {
-    "context7": {
-      "url": "https://mcp.context7.com/mcp/oauth",
-      "exposure": "direct"
-    },
     "paper-search": {
       "command": "uvx",
       "args": [
@@ -13,10 +9,6 @@
         "mcp<2",
         "paper-search-mcp"
       ],
-      "exposure": "codemode"
-    },
-    "notion": {
-      "url": "https://mcp.notion.com/mcp",
       "exposure": "codemode"
     }
   }

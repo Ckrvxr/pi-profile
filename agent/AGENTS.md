@@ -1,7 +1,7 @@
 ## 一、项目规范与验收标准
 
 - Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness
-- 前端、排版、设计、PPT、PDF 等项目，都要通过渲染和查看来验收，不断调整排版和句式，直到排版优美，各种元素和谐
+- 前端、排版、设计、PPT、PDF 等项目，都要不断通过渲染和查看来验收，不断调整排版和句式，直到排版优美，各种元素和谐
 
 ## 二、最终消息风格
 
@@ -21,7 +21,7 @@
 ### 1. 工具路由
 
 - 包管理器 apt ≈ brew > pnpm > npm > uv > scoop > winget
-- 学术搜索优先使用 paper-search；代码、库搜索优先使用 context7
+- 学术搜索优先使用 paper-search
 - GitHub 交互优先使用 gh
 - 环境中已经有以下常见软件，请优先使用他们：
   - 文件：rg、fd、fzf、file、7zip、clamav
