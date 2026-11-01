@@ -2,7 +2,7 @@
 
 - Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness
 - 前端、排版、设计、PPT、PDF 等项目，都要不断通过渲染和查看来验收，不断调整排版和句式，直到排版优美，各种元素和谐
-- 请使用无损格式保证终端质量，包括视频，除非用户要求其他质量
+- 请使用无损格式保证终端质量，包括视频，除非用户要求其他质量。网络资源选择最高画质，但不需要故意转换为无损，保持原文件即可
 - 优先使用下面格式：
   - av1 > hevc > avc
   - flac ≈ wav > opus > m4a
