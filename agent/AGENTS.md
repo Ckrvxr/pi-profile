@@ -39,6 +39,7 @@
   - 请优先使用 bash 而非 powershell
   - microsoft-coreutils 已安装，已包含大部分 unix like 工具
   - tmux 改为 psmux，语法基本无差异
+- 尽量不要使用 sed、awk
 
 ### 2. fd（文件搜索增强）
 
@@ -81,8 +82,7 @@ cat file.txt | fzf --filter='QUERY'
 
 ### 4. tmux（会话、交互、调试增强）
 
-- 会话 id 命名统一规范：`pi-<项目>-<会话ID>-<任务>`，例如 `pi-sqlite_v3-9766127e-source_download`
-  - 使用 `PI_SESSION_ID` 区分 Pi 会话，取末尾 8 位。
+会话 id 命名统一规范：`pi-<项目>-<会话ID后8位>-<任务>`，例如 `pi-sqlite_v3-9766127e-source_download`
 
 ```bash
 # 会话名

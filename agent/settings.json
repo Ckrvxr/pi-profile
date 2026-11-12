@@ -7,12 +7,12 @@
     "npm:pi-bash-highlight",
     "npm:@howaboua/pi-codex-imagegen"
   ],
-  "lastChangelogVersion": "1.4.0",
+  "lastChangelogVersion": "1.5.2",
   "theme": "system",
   "images": {
     "autoResize": false
   },
-  "defaultProvider": "openai-codex",
+  "defaultProvider": "opencode-go",
   "defaultModel": "deepseek-v4.1-flash",
   "autocompleteMaxVisible": 15,
   "enabledModels": [
@@ -51,5 +51,10 @@
     "openai-codex/gpt-6.1-sol": "high",
     "openai-codex/gpt-6-luna": "max",
     "openai-codex/gpt-6-astra": "high"
+  },
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0",
+    "{\"source\":\"npm:@normful/pi-auto-name\",\"scope\":\"user\"}": "2.1.0",
+    "{\"source\":\"npm:@howaboua/pi-codex-imagegen\",\"scope\":\"user\"}": "0.0.14"
   }
 }
