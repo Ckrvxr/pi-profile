@@ -1,5 +1,20 @@
 {
   "toolActivation": "eager",
+  "firecrawlBaseUrl": "https://api.firecrawl.dev",
+  "firecrawlApiKey": "$FIRECRAWL_API_KEY",
+  "parallelApiKey": "$PARALLEL_API_KEY",
+  "exaApiKey": "$EXA_API_KEY",
+  "searchRouting": {
+    "providers": ["openai", "parallel", "firecrawl", "exa"],
+    "fallbackOn": [
+      "transient",
+      "quota",
+      "network",
+      "invalid-response",
+      "unsupported",
+      "empty"
+    ]
+  },
   "ssrf": {
     "allowRanges": ["198.18.0.0/15"]
   }
