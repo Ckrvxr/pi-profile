@@ -29,7 +29,7 @@
 - 学术搜索优先使用 paper-search
 - GitHub 交互优先使用 gh
 - 环境中已经有以下常见软件，请优先使用他们：
-  - 文件：rg、fd、fzf、file、7zip、clamav
+  - 文件：rg、fd、file、7zip、clamav
   - 数据处理：jq、yq、dasel、sqlite(3)
   - 多媒体：ffmpeg、imagemagick、yt-dlp、mediainfo
   - 网络：curl、aria2(c)、iperf3、tshark
@@ -39,7 +39,7 @@
   - 请优先使用 bash 而非 powershell
   - microsoft-coreutils 已安装，已包含大部分 unix like 工具
   - tmux 改为 psmux，语法基本无差异
-- 尽量不要使用 sed、awk
+- 尽量不要使用 sed、awk，因为这类方式操作容易出错
 
 ### 2. fd（文件搜索增强）
 
@@ -69,18 +69,7 @@ fd -e 'json' -x jq empty
 fd --help
 ```
 
-### 3. fzf（模糊筛选增强）
-
-基本语法：`命令 | fzf --filter='QUERY'`
-
-```bash
-# 在文件列表中模糊筛选
-fd -t f | fzf --filter='README'
-# 在文件中模糊筛选
-cat file.txt | fzf --filter='QUERY'
-```
-
-### 4. tmux（会话、交互、调试增强）
+### 3. tmux（会话、交互、调试增强）
 
 会话 id 命名统一规范：`pi-<项目>-<会话ID后8位>-<任务>`，例如 `pi-sqlite_v3-9766127e-source_download`
 
@@ -100,7 +89,7 @@ tmux kill-session -t "$tmux_session_id"
 # ...
 ```
 
-### 5. clamav（安全增强）
+### 4. clamav（安全增强）
 
 - 网络下载的二进制文件，请用 clamav 扫描
 - 如：`freshclam && clamscan -ir ~/Downloads`
