@@ -12,6 +12,7 @@
 !/agent/models-store.json
 !/agent/zentui.json
 !/agent/mcp.json
+!/agent/extensions/
 
 # Explicitly sensitive or machine/runtime-specific (keep excluded).
 /agent/auth.json
